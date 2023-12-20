@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+  
+}
+#title{
+  background-color:black;
+}
+
+#nav-link{ 
+  padding-left:10%;
+  padding-right:10%;
+}
+#container-first{
+  height: 100%;
+  width: 100%;
+  position: inherit;
+  display: flex;
+  background-image: url('https://source.unsplash.com/2000x2000/?landscape');
+  
+}
+
+
+#container-first #location {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#container-first input {
+  height: 50px;
+  width: 300px;
+  margin: 0px 20px;
+  padding: 0 20px;
+  left: 0%;
+  border: none;
+  outline: none;
+  background: white;
+  font-size: 20px;
+  color: black;
+}
+
+#container-first input::placeholder {
+  color: #000000d0;
+}
+
+#container-first input[type="submit"] {
+  cursor: pointer;
+  width: 150px;
+  height: 100%;
+  background: #000000d0;
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#tempIcon {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 35%;
+  right: 60%;
+  margin-top:8%;
+  
+}
+
+#weatherCountry {
+  font-size: 35px;
+  position: absolute;
+  top: 30%;
+  margin-top:10%;
+  margin-left: 10%;
+  right:75%;
+}
+
+#temperature {
+  font-size: 45px;
+  position: absolute;
+  top: 45%;
+  
+  margin-top:10%;
+  right: 80%;
+}
+
+#temperature b {
+  color: red;
+}
+#weatherDescription {
+  font-size: 20px;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 38%;
+  margin-top:15%;
+  right: 60%;
+}
+
+#container-first ul {
+  position: absolute;
+  bottom: 17%;
+  top:40%;
+  left: 10%;
+  right: auto;
+  margin-right: 20%;
+  margin-top:20%;
+  
+}
+
+#container-first ul li {
+  font-size: 20px;
+  list-style-type: none;
+  margin-right: 5rem;
+  
+}
+
+.features
+{
+  justify-content: left;
+  margin-right: 10rem;
+  
+}
+
+.flex
+{
+background: #000000d0;
+color: white;
+padding: 15em;
+border-radius: 30px;
+width: 60%;
+margin:auto;
+height: 14rem;
+top:15%;
+margin-top:12rem;
+margin-left:5rem;
+display: relative;
+}
+
+.h1
+{
+  margin-left: 28rem;
+  margin-top: 25rem;
+  font-size: 1.5rem;
+  font-family: "myFirstFont"; 
+}
+
+
+@font-face {
+  font-family: "myFirstFont"; 
+  src: url("fonts/ticking-timebomb-bb.regular.ttf"); 
+}
